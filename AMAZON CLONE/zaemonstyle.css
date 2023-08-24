@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial;
+    border: border-box;
+    /* border ki height width alg se count mt ho */
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+
+    display: flex ;
+    align-items: center;
+    /* jo top se bottom axis h cross axis usme centre me hojaynge itms */
+    justify-content: space-evenly;
+
+}
+.navLogo{
+    height: 50px;
+    width: 120px;
+}
+.logo{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/019/040/342/original/amazon-logo-editorial-free-vector.jpg");
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* for box 2 */
+.addFirst{
+    color: #cccccc;
+    font-size:0.85rem;
+    margin-left: 15px;
+}
+.addSec{
+    font-size:1rem;
+    margin-left: 3px;
+}
+.addIcon{
+    display: flex;
+    align-items: center;
+}
+.navSearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.searchSelect{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.searchInput{
+    width: 100%;
+    font-size:  1rem;
+    border: none;
+}
+.searchIcon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    /* //horizontally center */
+    justify-content: center;
+    /* //vertically center */
+    font-size: 1.2rem;
+    background-color: rgb(244, 191, 76);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #000;
+}
+
+.navSearch:hover{
+    border: 2px solid orange;
+}
+/* box4style */
+span{
+    font-size: 0.7rem;
+
+}
+
+.navSecond{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* cart wala box */
+.navCart i{
+    font-size: 30px;
+
+}
+
+.navCart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #222548fb;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* vertical-align */
+    justify-content: space-evenly;
+}
+
+.panelOptions p{
+    display: inline;
+    margin-left: 15x;
+}
+.panelOptions {
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+
+.panelDeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* HERO SECTION */
+.heroSection{
+    background-image: url("https://m.media-amazon.com/images/I/71QRxZvKnGL._SX3000_.jpg");
+    /* image wnt be visible unless we give it some height */
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.heromsg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* y axis pe center me aaya */
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.heromsg a{
+    color: #007185;
+}
+
+/* shop section  */
+.shopSection{
+    display: flex;
+    flex-wrap: wrap;
+    /* //taki 1 line 4 hi boxes aye uske baad neeche wwali line me chale jaye */
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgb(215, 235, 81),white);
+   
+
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+    
+}
+.boximg{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxcontent{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boxcontent a{
+    columns: #007185;
+}
+
+/* footer */
+
+footer{
+    margin-top: 15px;
+}
+.foot1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot2 {
+    background-color: #222f3d ;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot2 a{
+    color: #dddddd;
+    display: block;
+    /* sab single eline eme ajayenege */
+    font-size: 0.85;
+    margin-top: 10px;
+}
+ul {
+    margin-top: 20px;
+}
+
+.foot3{
+    background-color:#222f3d ;
+    color: white;
+    border-top: 1.5 px solid transparent;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+ 
+   
+
+}
+.foot4 a{
+    color: white;
+    
+
+}
+
+.footpg{
+    display: flex;
+justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+    
+}
+.copyright{
+    padding-top: 5px;
+}
